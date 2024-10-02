@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright>SOSIEL Inc.</Copyright>
     <Authors>SOSIEL Inc.</Authors>
-    <AssemblyName>SOSIEL.VBGP-v0</AssemblyName>
-    <AssemblyTitle>SOSIEL.VBGP-v0</AssemblyTitle>
-    <AssemblyProduct>SOSIEL.VBGP-v0</AssemblyProduct>
+    <AssemblyName>SOSIEL.VBGP-v1</AssemblyName>
+    <AssemblyTitle>SOSIEL.VBGP-v1</AssemblyTitle>
+    <AssemblyProduct>SOSIEL.VBGP-v1</AssemblyProduct>
     <AssemblyCompany>SOSIEL Inc.</AssemblyCompany>
     <AssemblyCopyright>SOSIEL Inc.</AssemblyCopyright>
     <AssemblyVersion>1.0</AssemblyVersion>
