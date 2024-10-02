@@ -9,10 +9,10 @@
     <AssemblyProduct>SOSIEL.VBGP-v0</AssemblyProduct>
     <AssemblyCompany>SOSIEL Inc.</AssemblyCompany>
     <AssemblyCopyright>SOSIEL Inc.</AssemblyCopyright>
-    <AssemblyVersion>0.0.1</AssemblyVersion>
-    <Product>SOSIEL.VBGP-v0</Product>
-    <Version>0.0.1</Version>
-    <FileVersion>0.0.1</FileVersion>
+    <AssemblyVersion>1.0</AssemblyVersion>
+    <Product>SOSIEL.VBGP-v1</Product>
+    <Version>1.0</Version>
+    <FileVersion>1.0</FileVersion>
     <PackageId>SOSIEL.VBGP</PackageId>
     <PackageLicenseUrl>https://github.com/SOSIEL/Process-Goal-prioritizing-Value-based/blob/master/COPYING.LESSER</PackageLicenseUrl>
     <PackageProjectUrl>https://www.sosiel.org</PackageProjectUrl>
@@ -27,12 +27,6 @@
     <PackageReference Include="CsvHelper" Version="12.2.3" />
     <PackageReference Include="NLog" Version="4.7.8" />
     <Reference Include="SOSIEL-v3">
-      <HintPath>C:\Program Files\LANDIS-II-v7\extensions\SOSIEL-v3.dll</HintPath>
     </Reference>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="$(ProjectDir)postbuild.bat $(Configuration)" />
-  </Target>
-
 </Project>

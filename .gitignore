@@ -208,3 +208,7 @@ SOSIEL VCM
 
 # SOSIEL Development
 copyfilestolandis.flag
+.editorconfig
+.gitattributes
+src/postbuild.bat
+src/SOSIEL.VBGP.sln
